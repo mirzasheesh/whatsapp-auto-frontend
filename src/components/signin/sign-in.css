@@ -1,0 +1,37 @@
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #24a396;
+}
+.sign-in {
+  width: 500px;
+  padding: 20px;
+  box-sizing: border-box;
+  /* min-height: 500px; */
+  background: #fff;
+  border-radius: 20px;
+}
+
+.sign-in input {
+  width: calc(100% - 8px);
+}
+.sign-in-button {
+  background: #24a396;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 20px;
+  border: none;
+  color: white;
+}
+.notification {
+  color: red;
+  position: absolute;
+  margin: 0;
+}
+.no-account a{
+    font-weight: 500;
+    color: #24a396;
+    cursor: pointer;
+}

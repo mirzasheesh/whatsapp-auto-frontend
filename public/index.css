@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.home p {
+  align-self: center;
+}
+
+.subhead {
+  display: flex;
+  flex-direction: row;
+}
+
+.header img {
+  width: 120px;
+  height: 80px;
+  border-radius: 15px;
+}
+
+.header h4 {
+  margin-left: 10px;
+  align-self: center;
+}
+
+.rightHead {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+
+.rightHead button {
+  margin-right: 10px;
+}
+
+.error {
+  display: flex;
+  flex-direction: column;
+}
+
+.error h2 {
+  margin-top: 40px;
+  align-self: center;
+}
+
+.error p {
+  align-self: center;
+}
+
+.sign {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign h2 {
+  align-self: center;
+}
+
+.sign input {
+  align-self: center;
+  width: 280px;
+  margin: 5px 0 5px 0;
+}
+
+.sign button {
+  align-self: center;
+  width: max-content;
+  margin: 25px 0 5px 0;
+}
+
+.sign p {
+  align-self: center;
+}
+
+.sign a {
+  color: blue;
+}
+
+.dashNav {
+  display: flex;
+  width: fit-content;
+}
+
+.dashNav button {
+  padding: 5px;
+}
+
+.rowWiseElements {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.chat-history {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.chat-history h4 {
+  text-align: center;
+}
+
+.chat-history a {
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 2px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.chat-history a:hover {
+  opacity: 0.5;
+}
+
+.conversation {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  overflow-y: auto;
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  min-width: 400px;
+}
+
+.clientMessage {
+  align-self: flex-end;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.customerMessage {
+  align-self: flex-start;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.sendBox {
+  align-self: flex-end;
+  margin-right: 10px;
+  display: flex;
+  height: 60px;
+}
+
+.sendBox textarea {
+  height: 40px;
+}
+
+.sendBox button {
+  border: 0;
+  height: 40px;
+  margin-left: 5px;
+}
+
+.customerSection {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+}
+
+.customerSection button {
+  align-self: center;
+  width: 180px;
+}
+
+.customerSection h4 {
+  align-self: center;
+}
+
+.newCustomer {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  margin: 10px;
+}
+
+.newCustomer input {
+  margin: 0 10px 0 10px;
+}
+
+.customerTable {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  align-self: center;
+}
+
+.customerTable table,
+th,
+td {
+  border: 1px solid;
+}
+
+.customerTable th,
+td {
+  padding: 10px;
+}
+
+/* input */
+input {
+  border: 2px solid #e6ecf1;
+  height: 30px;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+/* h2 */
+h2 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.TwoBuns {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+}
+
+.csv-button-wrap {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: fit-content;
+}
+
+.contact-button {
+  font-size: large;
+  border: 2px solid;
+  border-radius: 5px;
+  margin-left: 15px;
+  padding: 4px;
+}

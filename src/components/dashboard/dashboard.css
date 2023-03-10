@@ -1,0 +1,20 @@
+.tab-wrapper {
+  padding-left: 316px;
+}
+body {
+  background: #fafafd;
+}
+.userName {
+  font-size: 36px;
+  margin: 20px 0;
+}
+.dashNav button:not(:first-child) {
+    margin:  0 10px;
+}
+.dashNav button {
+    padding: 10px;
+    border: 1px solid #E6ECF1;
+    background: #24A396;
+    border-radius: 8px;
+    color: #fff;
+}
